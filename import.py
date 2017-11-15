@@ -1,6 +1,6 @@
 from py2neo import Graph
 import os
-graph = Graph("http://Rimma1:Rimma@localhost:7474/db/data/")
+graph = Graph("http://neo4j:neo4j@localhost:7474/db/data/")
 
 def scope(data_file):
     import json
